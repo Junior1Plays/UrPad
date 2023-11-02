@@ -1,8 +1,6 @@
 {
   "rewrites": [
-    {
-      "source": "/:path+.html",
-      "destination": "/:path"
-    }
+    { "source": "/raw/note", "destination": "/raw/note.html" },
+    { "source": "/index", "destination": "/index.html" }
   ]
 }
