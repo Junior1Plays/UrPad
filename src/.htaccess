@@ -1,0 +1,11 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+# Verifica se o arquivo HTML existe
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Verifica se o arquivo HTML com a extensão .html existe
+RewriteCond %{REQUEST_FILENAME}.html -f
+
+# Redireciona para o arquivo HTML com a extensão .html
+RewriteRule ^(.+)$ $1.html [L]
