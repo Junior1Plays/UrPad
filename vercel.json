@@ -1,6 +1,8 @@
 {
   "rewrites": [
-    { "source": "/raw/note", "destination": "/raw/note.html" },
-    { "source": "/index", "destination": "/index.html" }
+    {
+      "source": "/raw/note.html",
+      "destination": "/raw/note"
+    }
   ]
 }
